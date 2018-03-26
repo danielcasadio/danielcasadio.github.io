@@ -18475,6 +18475,7 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.AddVar,
 	cr.system_object.prototype.acts.GoToLayout,
 	cr.system_object.prototype.cnds.OnLayoutStart,
-	cr.system_object.prototype.acts.ResetGlobals
+	cr.system_object.prototype.acts.ResetGlobals,
+	cr.plugins_.Mouse.prototype.cnds.OnObjectClicked
 ];};
 
